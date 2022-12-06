@@ -1,7 +1,7 @@
 set -e
 sudo apt update
-sudo atp -y full-upgrade
-sudo atp autoremove -y
-sudo atp autoclean -y
+sudo apt -y full-upgrade
+sudo apt autoremove -y
+sudo apt autoclean -y
 date >> ./last-run
 #sudo reboot
